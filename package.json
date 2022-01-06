@@ -1,0 +1,18 @@
+{
+  "name": "daim",
+  "version": "1.0.0",
+  "description": "\"Daim's Personal NPM Card\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daim Khan",
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "^6.2.1",
+    "chalk": "^5.0.0",
+    "clear": "^0.1.0",
+    "inquirer": "^8.2.0",
+    "open": "^8.4.0"
+  }
+}
