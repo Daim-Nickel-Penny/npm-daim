@@ -1,16 +1,22 @@
 {
   "name": "daim",
-  "version": "1.0.0",
-  "description": "\"Daim's Personal NPM Card\"",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "version": "1.0.2",
+  "description": "My personal NPM business card",
+  "main": "./index.js",
+  "dependencies": {
+    "boxen": "^4.2.0",
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "inquirer": "^7.3.3",
+    "open": "^7.3.0"
   },
   "bin": {
     "daim": "./index.js"
   },
-  "author": "Daim Khan",
-  "license": "ISC",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Daim-Nickel-Penny/npm-daim.git"
@@ -21,13 +27,8 @@
     "Card",
     "Node"
   ],
-  "dependencies": {
-    "boxen": "^4.2.0",
-    "chalk": "^4.1.0",
-    "clear": "^0.1.0",
-    "inquirer": "^7.3.3",
-    "open": "^7.3.0"
-  },
+  "author": "Cameron Thompson",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Daim-Nickel-Penny/npm-daim/issues"
   },
