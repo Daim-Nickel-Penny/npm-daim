@@ -6,13 +6,30 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "daim": "./index.js"
+  },
   "author": "Daim Khan",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daim-Nickel-Penny/npm-daim.git"
+  },
+  "keywords": [
+    "NPM",
+    "Business",
+    "Card",
+    "Node"
+  ],
   "dependencies": {
-    "boxen": "^6.2.1",
-    "chalk": "^5.0.0",
+    "boxen": "^4.2.0",
+    "chalk": "^4.1.0",
     "clear": "^0.1.0",
-    "inquirer": "^8.2.0",
-    "open": "^8.4.0"
-  }
+    "inquirer": "^7.3.3",
+    "open": "^7.3.0"
+  },
+  "bugs": {
+    "url": "https://github.com/Daim-Nickel-Penny/npm-daim/issues"
+  },
+  "homepage": "https://github.com/Daim-Nickel-Penny/npm-daim#readme"
 }
